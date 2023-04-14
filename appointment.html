@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<style>
+    #dep{
+        margin-left:0px;
+    }
+    .appointment input{
+        height: 40px;
+        width: 250px;
+        margin-bottom: 40px;
+        border: none;
+        border-bottom: solid gray 1px;
+        font-weight: bolder;
+        background-color: rgb(252, 249, 246);
+    }
+    .appointment select{
+        height: 40px;
+        width: 250px;
+        margin-bottom: 40px;
+        border: none;
+        border-bottom: solid gray 1px;
+        font-weight: bolder;
+        background-color: rgb(252, 249, 246);
+    }
+    button{
+        height: 40px;
+        width: 200px;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        background-color: rgba(3, 98, 240, 0.995);
+        font-weight: bolder;
+    }
+    .card{
+        border: none;
+        background-color: rgb(252, 249, 246);
+    }
+</style>
+    </head>
+<body>
+    <div class="appointment d-flex justify-content-center align-items-center" style="height: 100vh;">
+        <div class="card mb-3" style="max-width: 1000px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="./young-doctor-16088825.jpg" class="img-fluid rounded-start" alt="..." style="height: 650px; width: 600px;">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body my-5">
+                  <h3 class="card-title">Please call + 1800383 88 90 if urgent. </h3>
+                  <p class="card-text">your personal case manager will ensure that you receive the best possible care</p>
+                  <form class="d-flex justify-content-center align-items-center flex-column p-5">
+                    <div class="first">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6   ">
+                                    <input type="text" placeholder="Name Surname" >
+                                </div>
+                                <div class="col-md-6  ">
+                        <input type="text" placeholder="Email" >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+
+                    <div class="second">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <input type="text" placeholder="Phone">
+                                </div>
+                                <div class="col-md-6">
+                                    <select name="type" id="">
+                                        <option value="0">Select Department</option>
+                                        <option value="1">Laer Eye Surgery</option>
+                                        <option value="2">Glucoma Surgery</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="third">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <input type="text" placeholder="Appointment Date" ">
+
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="text" placeholder="Appointment Time" >
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="but my-4">
+                        <button>Make Appointment</button>
+                    </div>
+
+                    <div class="back">
+                        <a href="index.html" style="text-decoration: none; color: black; font-weight: bolder;">Go Back -></a>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+</html>
